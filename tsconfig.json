@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/HomeTile.jsx", "src/pages/history.jsx", "src/components/Tile.jsx", "src/pages/things-to-do.jsx", "src/components/Header.js", "src/cb_2018_us_county_5m.js"],
   "exclude": ["node_modules"]
 }

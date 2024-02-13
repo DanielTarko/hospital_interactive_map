@@ -7,5 +7,12 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+    rules: [
+      {
+        test: /\.zip$/,
+        use: 'file-loader',
+      },
+    ],
+  
 }
 
