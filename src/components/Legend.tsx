@@ -6,15 +6,15 @@ const Legend = () => {
     <div className="m-2">
       <div className="flex">
         <img src={"https://danieltarko.github.io/hospital_interactive_map/blue.png"} alt="Legend Image"  width={30} height={30} />
-        <p className='my-auto text-base'>Critical Access</p>
+        <p className='my-auto text-small'>Critical Access</p>
       </div>
       <div className="flex">
         <img src={"https://danieltarko.github.io/hospital_interactive_map/green.png"} alt="Legend Image"  width={30} height={30} />
-        <p className='my-auto text-base'>Hospitals with fewer than 50 beds</p>
+        <p className='my-auto text-small'>Hospitals with fewer than 50 beds</p>
       </div>
       <div className="flex">
         <img src={"https://danieltarko.github.io/hospital_interactive_map/red.png"} alt="Legend Image"  width={30} height={30} />
-        <p className='my-auto text-base'>Other</p>
+        <p className='my-auto text-small'>Other</p>
       </div>
     </div>
   );
