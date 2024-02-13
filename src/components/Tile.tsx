@@ -71,8 +71,8 @@ interface TileProps {
                     <div>
                         <hr className="my-1"/>
                         <div className="flex justify-between">
-                            <p className="font-medium">{field.key}</p>
-                            <p className="text-right">{selectedHospital[field.property] as string | number}</p>
+                            <p className="font-medium text-base	">{field.key}</p>
+                            <p className="text-right text-base	">{selectedHospital[field.property] as string | number}</p>
                         </div>
                     </div>
                   
@@ -86,8 +86,8 @@ interface TileProps {
                     <div>
                         <hr className="my-1"/>
                         <div className="flex justify-between">
-                            <p className="font-medium">{field.key}</p>
-                            <p className="text-right">{selectedHospital[field.property] as string | number}</p>
+                            <p className="font-medium text-base	">{field.key}</p>
+                            <p className="text-right text-base	">{selectedHospital[field.property] as string | number}</p>
                         </div>
                     </div>
                 ))
@@ -99,8 +99,8 @@ interface TileProps {
                     <div>
                         <hr className="my-1"/>
                         <div className="flex justify-between">
-                            <p className="font-medium">{field.key}</p>
-                            <p className="text-right">{selectedHospital[field.property] as string | number}</p>
+                            <p className="font-medium text-base	">{field.key}</p>
+                            <p className="text-right text-base	">{selectedHospital[field.property] as string | number}</p>
                         </div>
                     </div>
                 ))

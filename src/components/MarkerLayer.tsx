@@ -23,7 +23,7 @@ const MarkerLayer = ({selectedHospital, setHospital} : MarkerLayerProps) => {
                     return <Marker 
                                 position={hos.coordinates} 
                                 icon={new Icon ({
-                                    iconUrl: hos.isCriticalAccess ? 'https://danieltarko.github.io/hospital_interactive_map/red.png' : (hos.totalICUADC > 50 ? 'https://danieltarko.github.io/hospital_interactive_map/green.png' : 'https://danieltarko.github.io/hospital_interactive_map/blue.png' ),
+                                    iconUrl: hos.isCriticalAccess ? 'https://danieltarko.github.io/hospital_interactive_map/blue.png' : (hos.totalICUADC < 50 ? 'https://danieltarko.github.io/hospital_interactive_map/green.png' : 'https://danieltarko.github.io/hospital_interactive_map/red.png' ),
                                     iconSize : selectedHospital.name === hos.name ? [45,45] : [35,35], // size of the icon
                                     iconAnchor : selectedHospital.name === hos.name ? [17,35] : [12,25], // point of the icon which will correspond to marker's location
                                 })}
