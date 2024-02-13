@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hospital_interactive_map/static/css/main.900a1b57.css",
-    "main.js": "/hospital_interactive_map/static/js/main.13cd2da2.js",
+    "main.css": "/hospital_interactive_map/static/css/main.da6a41ef.css",
+    "main.js": "/hospital_interactive_map/static/js/main.0441109b.js",
     "static/js/787.04af36d3.chunk.js": "/hospital_interactive_map/static/js/787.04af36d3.chunk.js",
     "index.html": "/hospital_interactive_map/index.html",
-    "main.900a1b57.css.map": "/hospital_interactive_map/static/css/main.900a1b57.css.map",
-    "main.13cd2da2.js.map": "/hospital_interactive_map/static/js/main.13cd2da2.js.map",
+    "main.da6a41ef.css.map": "/hospital_interactive_map/static/css/main.da6a41ef.css.map",
+    "main.0441109b.js.map": "/hospital_interactive_map/static/js/main.0441109b.js.map",
     "787.04af36d3.chunk.js.map": "/hospital_interactive_map/static/js/787.04af36d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.900a1b57.css",
-    "static/js/main.13cd2da2.js"
+    "static/css/main.da6a41ef.css",
+    "static/js/main.0441109b.js"
   ]
 }
